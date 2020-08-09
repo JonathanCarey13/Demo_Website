@@ -1,0 +1,81 @@
+body{
+    background-color: cadetblue;
+
+}
+nav {
+    background-color: palevioletred;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 6vw;
+    width: 100vw;
+    z-index: 1;
+}
+nav ul li {
+    float: right;
+    position: relative;
+    margin-right: 50px;
+    list-style-type: none;
+    color: blanchedalmond;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans' sans-serif;
+}
+.titles{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    color: blanchedalmond;
+
+}
+.common-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: blanchedalmond;
+}
+.img{
+    display: block;
+    width: 600px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border-style: groove;
+}
+.navbar_text{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.navbar_text:hover {
+    color: cadetblue;
+    font-weight: bold;
+}
+#find_donuts{
+    float: center;
+}
+#donuts_wiki{
+    float: left;
+}
+.contact_text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color:blanchedalmond;
+    text-align: center;
+}
+#contact_title{
+    font-size: 40px;
+    margin-top: 110px;
+    margin-bottom: -15px;
+    text-align: center;
+}
+.form{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    color:blanchedalmond;
+    text-align: left;
+}
+#foot-title{
+    margin-bottom: -25px;
+}
